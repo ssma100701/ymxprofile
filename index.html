@@ -256,51 +256,149 @@
       </div>
       <div id="portfolio" style="margin-top: 15px">
         <h3 style="text-align: center">作品集</h3>
-        <div class="row row-cols-1 row-cols-md-3 g-4">
-          <div class="col">
-            <div class="card h-100">
-              <img src="..." class="card-img-top" alt="..." />
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">
-                  This is a longer card with supporting text below as a natural
-                  lead-in to additional content. This content is a little bit
-                  longer.
-                </p>
+        <ul class="nav nav-tabs" id="myTab" role="tablist">
+          <li class="nav-item" role="presentation">
+            <button
+              class="nav-link active"
+              id="project-tab"
+              data-bs-toggle="tab"
+              data-bs-target="#project"
+              type="button"
+              role="tab"
+              aria-controls="project"
+              aria-selected="true"
+            >
+              Projects
+            </button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button
+              class="nav-link"
+              id="ui-tab"
+              data-bs-toggle="tab"
+              data-bs-target="#ui"
+              type="button"
+              role="tab"
+              aria-controls="ui"
+              aria-selected="false"
+            >
+              UI/UX
+            </button>
+          </li>
+        </ul>
+        <div class="tab-content" id="myTabContent" style="padding: 10px">
+          <div
+            class="tab-pane fade show active"
+            id="project"
+            role="tabpanel"
+            aria-labelledby="project-tab"
+          >
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+              <div class="col">
+                <div class="card h-100">
+                  <img
+                    src="projects/project1-1.png"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Harmful Substances, DoseWise</h5>
+                    <p class="card-text">
+                      Dose Wise is a Medical Prescription Management App
+                      <br />
+                      Schedule multiple prescription intakes Remind users to
+                      take their medication Launch Quizzes to check user
+                      condition Send notifications to nominated person in case
+                      of emergency Provide Drug Information & Visualized
+                      Knowledge
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100">
+                  <img
+                    src="/projects/project2-1.png"
+                    class="card-img-top"
+                    alt="..."
+                    style="height: 200px; padding: 3px"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">PARENTING-HELP</h5>
+                    <p class="card-text">
+                      SUPPORTING NEW AUSTRALIANS, PARENTING-HELP
+                      <br />
+                      Parenting is hard, even harder when you are in a new
+                      country. We answer What , Where and Why: Child Care &
+                      Vaccination | Schooling | Sports
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100">
+                  <img
+                    src="/projects/project3-1.png"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">HEYTRUCKER</h5>
+                    <p class="card-text">
+                      Workforce Wellbeing and Safety
+
+                      <br />
+                      HeyTrucker is a web application that aims to promote
+                      health and safety of truck drivers on and off the road.
+                      Through this website, we encourage the families of truck
+                      drivers to get them to engage in healthy habits and live a
+                      better life.
+                    </p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
-          <div class="col">
-            <div class="card h-100">
-              <img src="..." class="card-img-top" alt="..." />
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is a short card.</p>
+          <div
+            class="tab-pane fade"
+            id="ui"
+            role="tabpanel"
+            aria-labelledby="ui-tab"
+          >
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+              <div class="col">
+                <div class="card h-100">
+                  <img src="..." class="card-img-top" alt="..." />
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">
+                      This is a longer card with supporting text below as a
+                      natural lead-in to additional content. This content is a
+                      little bit longer.
+                    </p>
+                  </div>
+                </div>
               </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card h-100">
-              <img src="..." class="card-img-top" alt="..." />
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">
-                  This is a longer card with supporting text below as a natural
-                  lead-in to additional content.
-                </p>
+              <div class="col">
+                <div class="card h-100">
+                  <img src="..." class="card-img-top" alt="..." />
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a short card.</p>
+                  </div>
+                </div>
               </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card h-100">
-              <img src="..." class="card-img-top" alt="..." />
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">
-                  This is a longer card with supporting text below as a natural
-                  lead-in to additional content. This content is a little bit
-                  longer.
-                </p>
+              <div class="col">
+                <div class="card h-100">
+                  <img src="..." class="card-img-top" alt="..." />
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">
+                      This is a longer card with supporting text below as a
+                      natural lead-in to additional content.
+                    </p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -384,6 +482,10 @@
       font-size: 0.7em;
       font-weight: 400;
       color: #808080;
+    }
+    .card-img-top {
+      height: 200px;
+      padding: 3px;
     }
   </style>
   <script></script>
