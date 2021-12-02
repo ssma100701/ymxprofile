@@ -70,8 +70,21 @@
       </div>
       <div class="container" style="position: relative">
         <div id="education" style="margin-top: 15px">
-          <h3 style="text-align: center">教育经历</h3>
-          <table class="table">
+          <div style="display: flex; justify-content: space-between">
+            <h3 style="text-align: center">教育经历</h3>
+            <a
+              class="btn btn-info"
+              data-bs-toggle="collapse"
+              href="#edudetail"
+              role="button"
+              aria-expanded="false"
+              aria-controls="edudetail"
+            >
+              Hide/Show
+            </a>
+          </div>
+
+          <table class="table" id="edudetail">
             <thead>
               <tr>
                 <th scope="col">学校</th>
@@ -94,8 +107,20 @@
           </table>
         </div>
         <div id="work" style="margin-top: 15px">
-          <h3 style="text-align: center">工作经历</h3>
-          <div class="timeline-small">
+          <div style="display: flex; justify-content: space-between">
+            <h3 style="text-align: center">工作经历</h3>
+            <a
+              class="btn btn-info"
+              data-bs-toggle="collapse"
+              href="#workdetail"
+              role="button"
+              aria-expanded="false"
+              aria-controls="workdetail"
+            >
+              Hide/Show
+            </a>
+          </div>
+          <div class="timeline-small" id="workdetail">
             <div class="timeline-small-body">
               <ul class="timeline-ul">
                 <!-- 一份工作经历 -->
@@ -258,156 +283,29 @@
                     </ol>
                   </div>
                 </li>
-
-                <li>
-                  <div class="bullet orange"></div>
-                  <div class="date">2018.07 – 2020.09</div>
-                  <div class="desc">
-                    <h3><b>莫纳什大学</b></h3>
-                    <h4><big>IT 学院，课程教师 / 教务主管</big></h4>
-                    <ol class="detailol">
-                      <li>
-                        教学、教务管理
-                        <ul>
-                          <li>
-                            担任莫纳什大学计算机学院交互设计，用户界面设计与评价，数据库与商业智能等课程本科和研究生教学，加入自己的创造性的教学设计，让教学内容更能和实际生活中的运用所结合以提高学生对本学科的理解以及灵活运用。对学生未来的升学就业提出合理化见意及方案，学生好评率高达
-                            95%及以上，所在团队曾荣获学校颁发的最杰出课程教学团队。
-                          </li>
-                          <li>
-                            参与设计编制教学内容，积极参加学部教学教研以及组上的活动，准备各类公开课等
-                          </li>
-                          <li>
-                            在多个学期的教学中，指导若干个团队毕业项目在最终的产品展示中获得了来自各行业专家们评选的金奖
-                          </li>
-                        </ul>
-                      </li>
-                      <li>
-                        日常事务管理
-                        <ul>
-                          <li>日常学习管理，负责会务组织工作,编制会议记录。</li>
-                          <li>
-                            根据年度学生人数,协助课程负责人制定各专业教学进度表。
-                          </li>
-                        </ul>
-                      </li>
-                      <li>
-                        教学资料管理
-                        <ul>
-                          <li>负责各种资料的校对、打印、分发及归档。</li>
-                          <li>
-                            负责教学信息、教学资料、教学档案的收集与管理工作和考试试卷及成绩档案的管理工作
-                          </li>
-                        </ul>
-                      </li>
-                      <li>
-                        考试管理
-                        <ul>
-                          <li>
-                            协助教务处各组长组织考试工作、建立标准化题库。
-                          </li>
-                        </ul>
-                      </li>
-                    </ol>
-                  </div>
-                </li>
-                <li>
-                  <div class="bullet orange"></div>
-                  <div class="date">2018.07 – 2020.09</div>
-                  <div class="desc">
-                    <h3><b>莫纳什大学</b></h3>
-                    <h4><big>IT 学院，课程教师 / 教务主管</big></h4>
-                    <ol class="detailol">
-                      <li>
-                        教学、教务管理
-                        <ul>
-                          <li>
-                            担任莫纳什大学计算机学院交互设计，用户界面设计与评价，数据库与商业智能等课程本科和研究生教学，加入自己的创造性的教学设计，让教学内容更能和实际生活中的运用所结合以提高学生对本学科的理解以及灵活运用。对学生未来的升学就业提出合理化见意及方案，学生好评率高达
-                            95%及以上，所在团队曾荣获学校颁发的最杰出课程教学团队。
-                          </li>
-                          <li>
-                            参与设计编制教学内容，积极参加学部教学教研以及组上的活动，准备各类公开课等
-                          </li>
-                          <li>
-                            在多个学期的教学中，指导若干个团队毕业项目在最终的产品展示中获得了来自各行业专家们评选的金奖
-                          </li>
-                        </ul>
-                      </li>
-                      <li>
-                        日常事务管理
-                        <ul>
-                          <li>日常学习管理，负责会务组织工作,编制会议记录。</li>
-                          <li>
-                            根据年度学生人数,协助课程负责人制定各专业教学进度表。
-                          </li>
-                        </ul>
-                      </li>
-                      <li>
-                        教学资料管理
-                        <ul>
-                          <li>负责各种资料的校对、打印、分发及归档。</li>
-                          <li>
-                            负责教学信息、教学资料、教学档案的收集与管理工作和考试试卷及成绩档案的管理工作
-                          </li>
-                        </ul>
-                      </li>
-                      <li>
-                        考试管理
-                        <ul>
-                          <li>
-                            协助教务处各组长组织考试工作、建立标准化题库。
-                          </li>
-                        </ul>
-                      </li>
-                    </ol>
-                  </div>
-                </li>
                 <!-- 一份工作经历 -->
                 <li>
-                  <div class="bullet blue"></div>
-                  <div class="date">2019.02 – 2019.08</div>
-                  <div class="desc">
-                    <h3><b>AUSTRALIAN SYNERGY ACCOUNTING</b></h3>
-                    <h4><big>产品经理</big></h4>
-                    <ol class="detailol">
-                      <!-- 一份工作内容 -->
-                      <li>
-                        负责公司网站的UI/UX 设计
-                        <ul>
-                          <li>
-                            与开发团队沟通，编写产品需求文档，制作产品原型，并跟进项目进度
-                          </li>
-                          <li>显著的提升了公司网站的访问量和好评度</li>
-                        </ul>
-                      </li>
-                      <!-- 一份工作内容 -->
-                      <li>
-                        负责公司内部财务系统功能模块的设计与改进
-                        <ul>
-                          <li>
-                            分析产品的核心功能与用户实际使用需求，优化产品逻辑。
-                          </li>
-                          <li>提升了用户满意度。</li>
-                        </ul>
-                        <div class="bullet black"></div>
-                  <div class="date">2014.08 – 2015.03 </div>
+                  <div class="bullet green"></div>
+                  <div class="date">2014.08 – 2015.03</div>
                   <div class="desc">
                     <h3><b>澳际教育</b></h3>
                     <h4><big>咨询顾问</big></h4>
                     <ol class="detailol">
+                      <!-- 一份工作内容 -->
+                      <li>
                         日常事务管理
                         <ul>
-                        
                           <li>
-                            接待来访学生，为其提供留学方面的咨询服务，满意度达99%。 
+                            接待来访学生，为其提供留学方面的咨询服务，满意度达99%。
                           </li>
                           <li>
-                      与客户沟通，了解客户申请留学所需要的相关背景情况；并设计切实可行的留学方案，促进签约。
-                    </li>
-                    <li>
-                      持续跟进每个签约个案进程，解决客户所遇到的问题，投诉率为0。
-                    </li>
-                    </li>
-                    <!-- 一份工作经历 -->
+                            与客户沟通，了解客户申请留学所需要的相关背景情况；并设计切实可行的留学方案，促进签约。
+                          </li>
+                          <li>
+                            持续跟进每个签约个案进程，解决客户所遇到的问题，投诉率为0。
+                          </li>
+                        </ul>
+                      </li>
                     </ol>
                   </div>
                 </li>
@@ -416,11 +314,23 @@
           </div>
         </div>
         <div id="cloudbox" style="margin-top: 15px">
-          <h3 style="text-align: center">孵化项目</h3>
-          <div>
+          <div style="display: flex; justify-content: space-between">
+            <h3 style="text-align: center">孵化项目</h3>
+            <a
+              class="btn btn-info"
+              data-bs-toggle="collapse"
+              href="#cloudboxdetail"
+              role="button"
+              aria-expanded="false"
+              aria-controls="cloudboxdetail"
+            >
+              Hide/Show
+            </a>
+          </div>
+          <div id="cloudboxdetail">
             <iframe
               src="https://onedrive.live.com/embed?cid=12B243B460CFD359&amp;resid=12B243B460CFD359%2110984&amp;authkey=AGWtS01uYa2axKw&amp;em=2&amp;wdAr=1.7777777777777777"
-              width="1186px"
+              width="100%"
               height="691px"
               frameborder="0"
             >
@@ -433,8 +343,20 @@
           </div>
         </div>
         <div id="award" style="margin-top: 15px">
-          <h3 style="text-align: center">获奖经历</h3>
-          <table class="table">
+          <div style="display: flex; justify-content: space-between">
+            <h3 style="text-align: center">获奖经历</h3>
+            <a
+              class="btn btn-info"
+              data-bs-toggle="collapse"
+              href="#awarddetail"
+              role="button"
+              aria-expanded="false"
+              aria-controls="awarddetail"
+            >
+              Hide/Show
+            </a>
+          </div>
+          <table class="table" id="awarddetail">
             <thead>
               <tr>
                 <th scope="col">时间</th>
@@ -473,174 +395,188 @@
           </table>
         </div>
         <div id="portfolio" style="margin-top: 15px">
-          <h3 style="text-align: center">作品集</h3>
-          <p>
-            欢迎来到E-Planet,
-            这里有我指导过的计算机学院毕业课程项目，UI/UX设计课程项目和参与过的开发项目。
-            <br />
-            参与开发的项目之一：
-            <a href="https://synergyaccountings.com.au/">Synergy</a>
-          </p>
-          <ul class="nav nav-tabs" id="myTab" role="tablist">
-            <li class="nav-item" role="presentation">
-              <button
-                class="nav-link active"
-                id="project-tab"
-                data-bs-toggle="tab"
-                data-bs-target="#project"
-                type="button"
-                role="tab"
-                aria-controls="project"
-                aria-selected="true"
-              >
-                Projects
-              </button>
-            </li>
-            <li class="nav-item" role="presentation">
-              <button
-                class="nav-link"
-                id="ui-tab"
-                data-bs-toggle="tab"
-                data-bs-target="#ui"
-                type="button"
-                role="tab"
-                aria-controls="ui"
-                aria-selected="false"
-              >
-                UI/UX
-              </button>
-            </li>
-          </ul>
-          <div class="tab-content" id="myTabContent" style="padding: 10px">
-            <div
-              class="tab-pane fade show active"
-              id="project"
-              role="tabpanel"
-              aria-labelledby="project-tab"
+          <div style="display: flex; justify-content: space-between">
+            <h3 style="text-align: center">作品集</h3>
+            <a
+              class="btn btn-info"
+              data-bs-toggle="collapse"
+              href="#portinfo"
+              role="button"
+              aria-expanded="false"
+              aria-controls="portinfo"
             >
-              <div class="row row-cols-1 row-cols-md-3 g-4">
-                <div class="col">
-                  <div class="card h-100">
-                    <img
-                      src="./projects/project1-1.png"
-                      class="card-img-top project-img"
-                      alt="..."
-                    />
-                    <div class="card-body">
-                      <h5 class="card-title">
-                        <a href="./projects/project1.pptx">
-                          Harmful Substances, DoseWise
-                        </a>
-                      </h5>
-                      <p class="card-text">
-                        Dose Wise is a Medical Prescription Management App
-                        <br />
-                        Schedule multiple prescription intakes Remind users to
-                        take their medication Launch Quizzes to check user
-                        condition Send notifications to nominated person in case
-                        of emergency Provide Drug Information & Visualized
-                        Knowledge
-                      </p>
+              Hide/Show
+            </a>
+          </div>
+          <div id="portinfo">
+            <p>
+              欢迎来到E-Planet,
+              这里有我指导过的计算机学院毕业课程项目，UI/UX设计课程项目和参与过的开发项目。
+              <br />
+              参与开发的项目之一：
+              <a href="https://synergyaccountings.com.au/">Synergy</a>
+            </p>
+            <ul class="nav nav-tabs" id="myTab" role="tablist">
+              <li class="nav-item" role="presentation">
+                <button
+                  class="nav-link active"
+                  id="project-tab"
+                  data-bs-toggle="tab"
+                  data-bs-target="#project"
+                  type="button"
+                  role="tab"
+                  aria-controls="project"
+                  aria-selected="true"
+                >
+                  Projects
+                </button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button
+                  class="nav-link"
+                  id="ui-tab"
+                  data-bs-toggle="tab"
+                  data-bs-target="#ui"
+                  type="button"
+                  role="tab"
+                  aria-controls="ui"
+                  aria-selected="false"
+                >
+                  UI/UX
+                </button>
+              </li>
+            </ul>
+            <div class="tab-content" id="myTabContent" style="padding: 10px">
+              <div
+                class="tab-pane fade show active"
+                id="project"
+                role="tabpanel"
+                aria-labelledby="project-tab"
+              >
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                  <div class="col">
+                    <div class="card h-100">
+                      <img
+                        src="./projects/project1-1.png"
+                        class="card-img-top project-img"
+                        alt="..."
+                      />
+                      <div class="card-body">
+                        <h5 class="card-title">
+                          <a href="./projects/project1.pptx">
+                            Harmful Substances, DoseWise
+                          </a>
+                        </h5>
+                        <p class="card-text">
+                          Dose Wise is a Medical Prescription Management App
+                          <br />
+                          Schedule multiple prescription intakes Remind users to
+                          take their medication Launch Quizzes to check user
+                          condition Send notifications to nominated person in
+                          case of emergency Provide Drug Information &
+                          Visualized Knowledge
+                        </p>
+                      </div>
                     </div>
                   </div>
-                </div>
-                <div class="col">
-                  <div class="card h-100">
-                    <img
-                      src="./projects/project2-1.png"
-                      class="card-img-top project-img"
-                      alt="..."
-                      style="height: 200px; padding: 3px"
-                    />
-                    <div class="card-body">
-                      <h5 class="card-title">
-                        <a href="./projects/project2.pptx">PARENTING-HELP</a>
-                      </h5>
-                      <p class="card-text">
-                        SUPPORTING NEW AUSTRALIANS, PARENTING-HELP
-                        <br />
-                        Parenting is hard, even harder when you are in a new
-                        country. We answer What , Where and Why: Child Care &
-                        Vaccination | Schooling | Sports
-                      </p>
+                  <div class="col">
+                    <div class="card h-100">
+                      <img
+                        src="./projects/project2-1.png"
+                        class="card-img-top project-img"
+                        alt="..."
+                        style="height: 200px; padding: 3px"
+                      />
+                      <div class="card-body">
+                        <h5 class="card-title">
+                          <a href="./projects/project2.pptx">PARENTING-HELP</a>
+                        </h5>
+                        <p class="card-text">
+                          SUPPORTING NEW AUSTRALIANS, PARENTING-HELP
+                          <br />
+                          Parenting is hard, even harder when you are in a new
+                          country. We answer What , Where and Why: Child Care &
+                          Vaccination | Schooling | Sports
+                        </p>
+                      </div>
                     </div>
                   </div>
-                </div>
-                <div class="col">
-                  <div class="card h-100">
-                    <img
-                      src="./projects/project3-1.png"
-                      class="card-img-top project-img"
-                      alt="..."
-                    />
-                    <div class="card-body">
-                      <h5 class="card-title">
-                        <a href="./projects/project3.pptx">
-                          VICTORIAN MIGRANT HEALTH
-                        </a>
-                      </h5>
-                      <p class="card-text">
-                        CULTURALLY DIVERSE HEALTH
+                  <div class="col">
+                    <div class="card h-100">
+                      <img
+                        src="./projects/project3-1.png"
+                        class="card-img-top project-img"
+                        alt="..."
+                      />
+                      <div class="card-body">
+                        <h5 class="card-title">
+                          <a href="./projects/project3.pptx">
+                            VICTORIAN MIGRANT HEALTH
+                          </a>
+                        </h5>
+                        <p class="card-text">
+                          CULTURALLY DIVERSE HEALTH
 
-                        <br />
-                        Find suburbs which have people speak your language. Get
-                        health services information: hospitals, GP’s, dental
-                        sites, and other allied health services. Compare suburbs
-                        and send the result via email.
-                      </p>
+                          <br />
+                          Find suburbs which have people speak your language.
+                          Get health services information: hospitals, GP’s,
+                          dental sites, and other allied health services.
+                          Compare suburbs and send the result via email.
+                        </p>
+                      </div>
                     </div>
                   </div>
                 </div>
               </div>
-            </div>
-            <div
-              class="tab-pane fade"
-              id="ui"
-              role="tabpanel"
-              aria-labelledby="ui-tab"
-            >
-              <div class="row row-cols-1 row-cols-md-3 g-4">
-                <div class="col">
-                  <div class="card h-100">
-                    <img
-                      src="./uis/ui1-1.png"
-                      class="card-img-top ui-img"
-                      alt="..."
-                    />
-                    <div class="card-body">
-                      <h5 class="card-title">
-                        <a href="./uis/UI1.pdf">
-                          Movie & TV Show Recommendation OTT App
-                        </a>
-                      </h5>
+              <div
+                class="tab-pane fade"
+                id="ui"
+                role="tabpanel"
+                aria-labelledby="ui-tab"
+              >
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                  <div class="col">
+                    <div class="card h-100">
+                      <img
+                        src="./uis/ui1-1.png"
+                        class="card-img-top ui-img"
+                        alt="..."
+                      />
+                      <div class="card-body">
+                        <h5 class="card-title">
+                          <a href="./uis/UI1.pdf">
+                            Movie & TV Show Recommendation OTT App
+                          </a>
+                        </h5>
+                      </div>
                     </div>
                   </div>
-                </div>
-                <div class="col">
-                  <div class="card h-100">
-                    <img
-                      src="./uis/ui2-1.png"
-                      class="card-img-top ui-img"
-                      alt="..."
-                    />
-                    <div class="card-body">
-                      <h5 class="card-title">
-                        <a href="./uis/UI2.pdf">Monash Motivation App</a>
-                      </h5>
+                  <div class="col">
+                    <div class="card h-100">
+                      <img
+                        src="./uis/ui2-1.png"
+                        class="card-img-top ui-img"
+                        alt="..."
+                      />
+                      <div class="card-body">
+                        <h5 class="card-title">
+                          <a href="./uis/UI2.pdf">Monash Motivation App</a>
+                        </h5>
+                      </div>
                     </div>
                   </div>
-                </div>
-                <div class="col">
-                  <div class="card h-100">
-                    <img
-                      src="./uis/ui3-1.png"
-                      class="card-img-top ui-img"
-                      alt="..."
-                    />
-                    <div class="card-body">
-                      <h5 class="card-title">
-                        <a href="./uis/UI3.pdf">StudyGroup App</a>
-                      </h5>
+                  <div class="col">
+                    <div class="card h-100">
+                      <img
+                        src="./uis/ui3-1.png"
+                        class="card-img-top ui-img"
+                        alt="..."
+                      />
+                      <div class="card-body">
+                        <h5 class="card-title">
+                          <a href="./uis/UI3.pdf">StudyGroup App</a>
+                        </h5>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -690,7 +626,6 @@
       background: #fff;
       z-index: 1;
       margin-right: 1rem;
-      margin-top: 7%;
     }
     .timeline-small-body .bullet.pink {
       background-color: hotpink;
